@@ -16,10 +16,19 @@ if userInput == 1:
         for i in range(len(tasksList) - 1):
             print(tasksList[i])
 elif userInput == 2:
-    tasksToAdd = []
     print("1- One Task")
     print("2- More than one task")
     userInput = int(input("Your choice: "))
-    if userInput
+    if userInput == 1:
+        userInput = str(input("Task"))
+        tasksList.append(userInput)
+    elif userInput == 2:
+        print("Note: make sure there is space between each task")
+        userInput = str(input("Tasks: "))
+        tasksToAdd = userInput.split()
+        for i in range(len(tasksToAdd) - 1):
+            tasksList.append(i)
+    else:
+        print("Choose from the above options")
+        
      
-
