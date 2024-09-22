@@ -28,7 +28,25 @@ elif userInput == 2:
         tasksToAdd = userInput.split()
         for i in range(len(tasksToAdd) - 1):
             tasksList.append(i)
+        print("Tasks added to the list.")
     else:
         print("Choose from the above options")
+elif userInput == 3:
+    print("1- One Task")
+    print("2- More than one task")
+    userInput = int(input("Your choice: "))
+    if userInput == 1:
+        userInput = str(input("Task"))
+        tasksList.remove(userInput)
+    elif userInput == 2:
+        print("Note: make sure there is space between each task")
+        userInput = str(input("Tasks: "))
+        tasksToRemove = userInput.split()
+        for i in range(len(tasksToRemove) - 1):
+            tasksList.remove(i)
+        print("Tasks removed from the list.")
+    else:
+        print("Choose from the above options")
+    
         
      
