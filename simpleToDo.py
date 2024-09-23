@@ -20,8 +20,9 @@ elif userInput == 2:
     print("2- More than one task")
     userInput = int(input("Your choice: "))
     if userInput == 1:
-        userInput = str(input("Task"))
+        userInput = str(input("Task: "))
         tasksList.append(userInput)
+        print("Task added to the list.")
     elif userInput == 2:
         print("Note: make sure there is space between each task")
         userInput = str(input("Tasks: "))
