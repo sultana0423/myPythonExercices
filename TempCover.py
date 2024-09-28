@@ -10,7 +10,7 @@ print("6- Kelvin to Celsius")
 
 userChoice = int(input("Choose an operation: "))
 
-if userChoice == 1: 
+if userChoice == 1:
     degree = int(input("Degree in Fahrenheit: "))
     toCelsius = round((degree - 32) * 5 / 9, 2)
     print(f"{degree}F to C is {toCelsius}C")
