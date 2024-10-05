@@ -1,4 +1,4 @@
-# Fibonacci Sequence Generator: Write a program that generates the Fibonacci sequence up to a specified number of terms.
+# Factorial Calculator: Create a program that computes the factorial of a given number.
 print("Fibonacci Sequence Generator")
 userI = int(input("Enter the number whose factorial is to be found: "))
 
