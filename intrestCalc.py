@@ -2,5 +2,5 @@
 print("Simple Interest Calculator")
 principal = int(input("Principal: "))
 rateOfInterest = int(input("Rate of Interest: "))
-time = int(input("Time: "))
+time = int(input("Time: ")) 
 def intrestCal(p,r,t):
